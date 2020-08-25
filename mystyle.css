@@ -42,15 +42,14 @@ a:active{
 	
 	nav {
 		float: left;
-		border:5px solid black;
+		border:0px solid black;
 		width:15%;
 		height: 510px;
 		background-color:beige;
-		padding:10px;
-		text-align: left;
+		padding:0px;
+		text-align: justify;
 		font-size:16px;
 		line-height: 50px;
-		margin: auto;
 	}
 	
 	section {
@@ -86,11 +85,6 @@ a:active{
 		width:15%;
 		height: 510px;
 	}
-
-table {
-	margin-left: auto;
-	margin-right: auto;
-}
 
 @media (max-width: 600px) {
 	nav, article,aside {
