@@ -44,12 +44,12 @@ a:active{
 		float: left;
 		border:5px solid black;
 		width:15%;
-		height: auto;
+		height: 510px;
 		background-color:beige;
-		padding:0px;
+		padding:10px;
 		text-align: left;
-		font-size:18px;
-		line-height: 60px;
+		font-size:16px;
+		line-height: 50px;
 		margin: auto;
 	}
 	
@@ -84,8 +84,13 @@ a:active{
 	aside{
 		float: left;
 		width:15%;
-		height: auto;
+		height: 510px;
 	}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 @media (max-width: 600px) {
 	nav, article,aside {
