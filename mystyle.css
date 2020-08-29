@@ -20,7 +20,7 @@ a{
 }
 
 a:hover{
-	background-color: black;
+	background-color:black;
 	color:white;
 }
 
@@ -29,8 +29,9 @@ a:active{
 }
 	
 	body{
-		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Microsoft JhengHei", Helvetica, Arial, "sans-serif";
 	}
+
 	header {
 		width:100%;
 		height:auto;
