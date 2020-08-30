@@ -59,6 +59,7 @@ a:active{
 	
 	nav {
 		float: left;
+		padding:5px;
 		width:15%;
 		height: 500px;
 		text-align: left;
