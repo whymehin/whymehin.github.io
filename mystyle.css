@@ -6,13 +6,14 @@
 }
 
 .image{
-	width:115px;
+	width:140px;
 	height: auto;
 	align: left;
 }
 	
 	.ht{
-		font-size: 18px;
+		font-size: 12px;
+		font-weight: normal;
 		margin-top: 15px;
 		margin-bottom: auto;
 	}
@@ -20,14 +21,17 @@
 		font-size: 10px;
 	}
 
+.at{
+	color:whitesmoke;
+}
+
 a{
 	text-decoration: none;
 	color:black;
 }
 
 a:hover{
-	background-color:black;
-	color:white;
+	color:slategrey;
 }
 
 a:active{
@@ -35,29 +39,28 @@ a:active{
 }
 	
 	body{
-		font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		background-color: whitesmoke;
+		font-family:'Courier New', '微軟正黑體';
 	}
 
 	header {
 		width:100%;
 		height:auto;
-		background-color: ghostwhite;
 		padding:20px;
+		font-weight: bold;
 		text-align: center;
-		font-size: 36px;
+		font-size: 20px;
 
 	}
 	
 	nav {
 		float: left;
-		border:0px solid black;
 		width:15%;
 		height: auto;
-		background-color:beige;
 		padding:0px;
-		text-align: justify;
-		font-size:14px;
-		line-height: 50px;
+		text-align: left;
+		font-size:16px;
+		line-height: 30px;
 	}
 	
 	section {
@@ -69,10 +72,9 @@ a:active{
 		float:left;
 		width:40%;
 		height: auto;
-		background-color: white;
 		padding:20px;
 		text-align: left;
-		font-size:15px;
+		font-size:16px;
 			
 	}
 	
@@ -81,7 +83,6 @@ a:active{
 	footer{
 		float: left;
 		width:100%;
-		background-color:ghostwhite;
 		padding:10px;
 		text-align: center;
 	
@@ -93,7 +94,12 @@ a:active{
 		height: auto;
 	}
 
-@media (max-width: 600px) {
+table{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+@media (max-width: 800px) {
 	nav, article,aside {
     width: 100%;
     height: auto;
