@@ -7,8 +7,9 @@
 
 .image{
 	width:100%;
+	min-height:550px;
 	align: left;
-	margin-top: -20px;
+	margin-top: -10px;
 }
 	
 	.ht{
@@ -112,11 +113,14 @@ table{
 	font-size: 16px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 	nav, article,aside {
     width: 100%;
     height: auto;
   }
+	.image{
+		display:none;
+	}
 }
 
 @keyframes fadeInAnimation { 
