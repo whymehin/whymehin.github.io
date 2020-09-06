@@ -14,7 +14,7 @@
 
 .image{
 	width:160%;
-	min-height:550px;
+	min-height:450px;
 	align: left;
 	margin-top: -10px;
 	margin-left: -20px;
@@ -69,7 +69,7 @@ a:active{
 	nav {
 		float: left;
 		width:10%;
-		height: 500px;
+		height: 400px;
 		overflow:hidden;
 		border-radius: 10px;
 	}
@@ -82,7 +82,7 @@ a:active{
 	article{
 		float:left;
 		width:50%;
-		height: 500px;
+		height: 400px;
 		padding-right:30px;
 		padding-left:30px;
 		text-align: justify;
@@ -108,7 +108,7 @@ a:active{
 	aside{
 		float: left;
 		width:20%;
-		height: 500px;
+		height: 400px;
 		overflow: hidden;
 		border-radius: 10px;
 		
