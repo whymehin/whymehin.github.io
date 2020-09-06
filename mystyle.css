@@ -7,14 +7,17 @@
 
 .headtable{
 	padding:20px;
+	font-size: 14px;
+	font-weight: bold;
 	
 }
 
 .image{
-	width:140%;
+	width:160%;
 	min-height:550px;
 	align: left;
 	margin-top: -10px;
+	margin-left: -20px;
 }
 	
 	.ht{
@@ -83,7 +86,7 @@ a:active{
 		padding-right:30px;
 		padding-left:30px;
 		text-align: left;
-		font-size:16px;
+		font-size:14px;
 		overflow: scroll;
 		
 		animation: fadeInAnimation ease 1s; 
@@ -117,7 +120,7 @@ table{
 	text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
 	nav, article,aside {
     width: 100%;
     height: auto;
