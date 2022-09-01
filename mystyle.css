@@ -80,7 +80,7 @@
 	}
 
 	nav {
-		float: left;
+		float:left;
 		width:10%;
 		height: 400px;
 		overflow:hidden;
@@ -93,7 +93,7 @@
 	}
 	
 	article{
-		float: left;
+		float:left;
 		width:40%;
 		height: 400px;
 		padding-right:30px;
